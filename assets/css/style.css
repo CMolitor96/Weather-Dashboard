@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+header {
+    text-align: center;
+    border: 2px solid blue;
+    width: 100%;
+    color: white;
+    background-color: blue;
+}
+
+article div {
+    display: inline;
+}
