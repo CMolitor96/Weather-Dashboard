@@ -12,6 +12,28 @@ header {
     background-color: blue;
 }
 
-article div {
-    display: inline;
+ul {
+    list-style-type: none;
+    border: 2px solid black;
+}
+
+button {
+    margin: 2px;
+}
+
+
+#todayForecast {
+    border: 2px solid black;
+}
+
+#search {
+    border: 2px solid black;
+    height: 300px;
+}
+#searched {
+    border: none;
+}
+
+#terms {
+    margin: 2px;
 }
