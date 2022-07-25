@@ -14,26 +14,32 @@ header {
 
 ul {
     list-style-type: none;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 button {
     margin: 2px;
 }
 
+.box {
+    border: 2px solid black;
+    margin: 5px;
+}
+
 
 #todayForecast {
     border: 2px solid black;
+    margin: 5px;
 }
 
 #search {
     border: 2px solid black;
     height: 300px;
-}
-#searched {
-    border: none;
+    margin: 5px;
+    padding: 5px;
 }
 
 #terms {
     margin: 2px;
 }
+

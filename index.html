@@ -20,16 +20,18 @@
                     <div id="search">
                         <form>
                             <div class="form-group">
-                            <label for="cityInput">Search for a city:</label>
-                            <input type="search" class="form-control" id="cityInput" placeholder="Enter city">
+                                <label for="cityInput">Search for a city:</label>
+                                <input type="search" class="form-control" id="cityInput" placeholder="Enter city">
                             </div>
-                            <button type="button" class="btn btn-primary">Search</button>
+                            <div class="row justify-content-center">
+                                <button type="button" class=" w-50 btn btn-primary">Search</button>
+                            </div>
                         </form>
                         <div id="searched">
-                            <ul id="terms">
-                                <li><button class="w-75 btn btn-secondary">San Diego</button></li>
-                                <li><button class="w-75 btn btn-secondary">Denver</button></li>
-                                <li><button class="w-75 btn btn-secondary">Austin</button></li>                            
+                            <ul class="col justify-content-center" id="terms">
+                                <!-- <li><button class="w-100 btn btn-success">San Diego</button></li>
+                                <li><button class="w-100 btn btn-success">Denver</button></li>
+                                <li><button class="w-100 btn btn-success">Austin</button></li> -->
                             </ul>
                         </div>
                     </div>
@@ -37,7 +39,15 @@
             </div>    
             <div id="todayForecast" class="col-8">
                 <main>
-                    <h3>Today's Forecast:</h3>
+                    <h3>Today's Forecast: (date)</h3>
+                        <ul>
+                            <li>City Name</li>
+                            <li>icon representation of weather</li>
+                            <li>tempreature</li>
+                            <li>humidity</li>
+                            <li>wind speed</li>
+                            <li>uv index with color coordination</li>
+                        </ul>
                 </main>
             </div>
         </div>
@@ -47,31 +57,34 @@
         <article>
             <h4>5 Day Forecast:</h4>
                 <div class="row">
-                    <div class="col" id="box1">Day 1
+                    <div class="col box">Day 1
+                        <ul>
+                            <li>Date</li>
+                            <li>icon</li>
+                            <li>temp</li>
+                            <li>wind speed</li>
+                            <li>humidity</li>
+                        </ul>
+                    </div>
+                    <div class="col box">Day 2
                         <ul>
                             <li>Temp</li>
                             <li>Wind</li>
                         </ul>
                     </div>
-                    <div class="col" id="box2">Day 2
+                    <div class="col box">Day 3
                         <ul>
                             <li>Temp</li>
                             <li>Wind</li>
                         </ul>
                     </div>
-                    <div class="col" id="box3">Day 3
+                    <div class="col box">Day 4
                         <ul>
                             <li>Temp</li>
                             <li>Wind</li>
                         </ul>
                     </div>
-                    <div class="col" id="box4">Day 4
-                        <ul>
-                            <li>Temp</li>
-                            <li>Wind</li>
-                        </ul>
-                    </div>
-                    <div class="col" id="box5">Day 5
+                    <div class="col box">Day 5
                         <ul>
                             <li>Temp</li>
                             <li>Wind</li>
