@@ -26,7 +26,7 @@ function test() {
     var search = document.querySelector('#cityInput').value;
     console.log(search);
     var city = search;
-    var newUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&appid=' + apiKey;
+    var newUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&appid=' + apiKey;
     getCoordinates();
 }
 
