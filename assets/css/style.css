@@ -34,12 +34,15 @@ button {
 
 #search {
     border: 2px solid black;
-    height: 300px;
     margin: 5px;
     padding: 5px;
 }
 
 #terms {
     margin: 2px;
+}
+
+#uv {
+    color: white;
 }
 
