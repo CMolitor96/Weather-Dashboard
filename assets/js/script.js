@@ -49,7 +49,7 @@ function getCoordinates() {
     var search = document.querySelector('#cityInput').value;
 
     // var testUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&exclude=hourly,daily&appid=' + apiKey;
-    var newUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + search + '&appid=' + apiKey;
+    var newUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + search + '&appid=' + apiKey;
   
     fetch(newUrl)
         .then(function (response) {
